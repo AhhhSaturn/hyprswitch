@@ -5,7 +5,7 @@
 		"@types/bun": "latest"
 	},
 	"scripts": {
-		"build": "bun build --compile --minify-whitespace --minify-syntax --outfile hyprswitch src/index.ts"
+		"build": "bun build --compile --minify-whitespace --minify-syntax --outfile dist/hyprswitch src/index.ts"
 	},
 	"peerDependencies": {
 		"typescript": "^5"
