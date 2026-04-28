@@ -1,0 +1,14 @@
+{
+	"name": "@hyprswitch/main",
+	"module": "src/index.ts",
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"scripts": {
+		"build": "bun build --compile --minify-whitespace --minify-syntax --outfile hyprswitch src/index.ts"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	},
+	"type": "module"
+}
